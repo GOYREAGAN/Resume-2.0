@@ -1,7 +1,6 @@
 *{
     box-sizing:border-box;
 }
-/*the body tag styling*/
 body{
     background-color: white;
 }
@@ -9,7 +8,7 @@ body{
 .headings{
     display: inline-block;
     height: auto;
-    width: 150px;
+    width: auto;
     margin:2px;
     text-align:center;
     padding: 5px;
@@ -28,6 +27,7 @@ header{
     color: white;
     background-color: black;
     border: solid blue;
+    width:auto;
 }
 /*h4 heading styling(the Date of birth)*/
 header h4{
@@ -45,28 +45,39 @@ header h1{
     display: inline-block;
     background-color: blue;
     height: auto;
-    width:250px;
+    width:auto;
     padding:5px;
     border-radius: 5px;
     text-align: center;
 }
 /*styling for the aside */
 aside{
-    width:50%;
+    width:auto;
     float: left;
     padding: 10px;
     background-color: black;
     color:white;
 }
 section{
-    width:50%;
-    float: right;
+    width:auto;
     padding: 10px;
+    text-align: center;
 }
+
 footer{
     display:block;
     clear:both;/*clears the flow of the aside and other sections*/
 }
+.progress{
+    width:auto;
+    position: relative;
+    left: 15px;
+    text-align: left;
+    margin-left: 10px;
+    gap:5px;
+    display:flex;
+}
+
 /*the flow of the section and aside chnages to accomodate screen size*/
 @media screen and(max-width:600px) {
     aside,section,main{
