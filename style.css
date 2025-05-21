@@ -28,17 +28,13 @@ header{
     background-color: black;
     border: solid blue;
     width:auto;
+    text-decoration: none;
+    display: flex;
 }
-/*h4 heading styling(the Date of birth)*/
-header h4{
-    text-align: right;
-    position:relative;
-    margin-right: 10px;
+header,ul,li{
+    align-content: space-evenly;
 }
-/*h1 styling found at the header tag*/
-header h1{
-    text-align: center;
-}
+
 /*headings for the second section*/
 .second_headings{
     color:white;
@@ -66,7 +62,7 @@ section{
 
 footer{
     display:block;
-    clear:both;/*clears the flow of the aside and other sections*/
+    clear:both; /*clears the flow of the aside and other sections*/
 }
 .progress{
     width:auto;
@@ -76,6 +72,9 @@ footer{
     margin-left: 10px;
     gap:5px;
     display:flex;
+}
+a{
+    text-decoration: none;
 }
 
 /*the flow of the section and aside chnages to accomodate screen size*/
